@@ -1,0 +1,68 @@
+# Created by .ignore support plugin (hsz.mobi)
+### wyy_gitignore template
+# Created by .ignore support plugin (hsz.mobi)
+### wyy_gitignore template
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.iml
+.idea
+target/
+logs/
+application-local.yml
+application-local.properties
+.DS_Store
+*http.json
+*dubbo.json
+pom.xml.versionsBackup
+
+ResponseAdvice.java
+UcRestExceptionAdvice.java
+AdminConfiguration.java
+node_modules/
+
+# package-lock\.json
+
+# package\.json
+# dependencies
+/front/node_modules
+
+# testing
+/front/coverage
+
+# production
+/front/build
+
+# misc
+.DS_Store
+/front/.env.local
+/front/.env.development.local
+/front/.env.test.local
+/front/.env.production.local
+
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/yarn-error.log*
+pom.xml.versionsBackup
