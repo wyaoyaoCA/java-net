@@ -44,6 +44,7 @@
         <module>01-java-net-quickstart</module>
         <module>02-java-net-api</module>
         <module>03-java-net-demo</module>
+        <module>04-java-net-nio</module>
     </modules>
 
 </project>

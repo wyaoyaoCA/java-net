@@ -41,7 +41,7 @@ public class EchoClient {
             log.info("send request success; content is {}", message);
             // 读取服务端的响应
             String s1 = reader.readLine();
-            log.info("get response success; response is {}", message);
+            log.info("get response success; response is {}", s1);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
