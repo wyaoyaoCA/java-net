@@ -157,6 +157,7 @@ public class NoBlockEchoServer {
         buffer.compact();
         if(req.contains("bye")){
             // 如果客户端发来的是bye，则退出当前会话, 失效这个key
+            log.info("current session will close ");
             selectionKey.cancel();
             socketChannel.close();
         }
